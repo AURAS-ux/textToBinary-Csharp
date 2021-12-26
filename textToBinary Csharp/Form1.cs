@@ -41,5 +41,10 @@ namespace textToBinary_Csharp
             }
             return list;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ResultBox.Clear();
+        }
     }
 }
